@@ -5,11 +5,12 @@ import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Design from './components/pages/Design'
 import Contact from './components/pages/Contact'
+import Navbar from './components/layout/Navbar';
 
 function App() {
   return (
-    <>
     <Router>
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
@@ -17,7 +18,6 @@ function App() {
         <Route path="/contact" component={Contact} />
       </Switch>
     </Router>
-    </>
   );
 }
 
