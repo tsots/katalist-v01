@@ -1,10 +1,13 @@
 import React from 'react';
-import {Nav} from '../styles/Index'
+import {Container, Nav} from '../styles/Index'
 
 const Navbar = () => {
     return (
-        <Nav>
+        
+            <Nav>
+            <div className="container">
             Home
+            </div>
         </Nav>
     )
 }
