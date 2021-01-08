@@ -17,17 +17,21 @@
 import Image from '../assets/resize.png'
 import Image1 from '../assets/data-transfer.svg'
 
-export const person = [
+export const person =
+[
+    
     {
-    fname: 'Taelo',
-    lname: 'Mosala',
-    img: Image
+        fname: 'Taelo',
+        lname: 'Mosala',
+        img: Image
     },
     {
-    fname: 'Tsotetsi',
-    lname: 'Mosala',
-    img: Image1
+        fname: 'Tsotetsi',
+        lname: 'Mosala',
+        img: Image1
     }
+    
 ]
+
 
     
